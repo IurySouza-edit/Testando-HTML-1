@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/comece.png" type="image/x-icon">
+    <title>Página de Login</title>
+    <!--Esta Página de login é de puro html !-->
+</head>
+<body>
+    <header><!--Cabeçalho-->
+        <h1>Faça o seu Cadastro: </h1>
+        <p>Preencha as Informações logo abaixo.</p>
+        <article><!--Artigo 1-->
+            <p>A página conta com um sistema de login por isso é preciso seguir o passo a passo !</p>
+        </article>
+    <article>
+        <form>
+            <div>
+                <label for="email"><strong>Preencha o campo de e-mail *</strong></label>
+                <input type="email" name="email" id="email" required maxlength="50" placeholder="Digite um e-mail">
+            </div>
+            <div>
+                <label for="senha"><strong>Preencha o campo de senha *</strong></label>
+                <input type="password" name="senha" id="senha" required maxlength="15" minlength="5" placeholder="Digite uma senha">
+            </div>
+            <div>
+                <label for="datadenascimento">Preencha sua data de nascimento *</label>
+                <input type="date" name="datadenascimento" id="datadenascimento" required>
+            </div>
+            <div>
+                <label for="selecionar">Planos</label>
+                <select name="selecionar" id="selecionar">
+            </div>
+                <p>Secione um plano abaixo:</p>
+                <option value="">Selecione um Plano</option>
+                <option value="Comum">Comum</option>
+                <option value="Vip">Vip</option>
+                <option value="Premium">Premium</option>
+            </select>
+            <div>
+                <p>Por favor, Selecione o seu gênero: </p>
+                <label for="generof">F</label>
+                <input type="radio" name="genero" id="generof" required>
+                <label for="generom">M</label>
+                <input type="radio" name="genero" id="generom" required>
+            </div>
+            <div>
+                <textarea name="motivo" id="motivo" placeholder="Deixe o seu feedback" required></textarea>
+            </div>
+            <div>
+                <label for="Aceitar">Concorde com os termos:</label>
+                <input type="checkbox" name="Aceitar" id="Aceitar" required>
+                <a href="http://127.0.0.1:5500/termos.html" target="_blank">Saber Mais</a>
+            </div>
+            <div>
+            <button type="submit">Cadastrar</button">
+            </div>
+        </form>
+    </article>
+    <article>
+        
+
+    </article>
+
+
+    </header>
+    <section><!--Primeira Seção-->
+    <article>
+        <span>
+            <table border="1">
+                <tr>
+                    <th>
+                        Tabela de Contrato
+                    </th>
+                    <th>
+                        Tempo de Contrato
+                    </th>
+                    <th>
+                        Vencimento
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Premium
+                    </td>
+                    <td>
+                       2 Anos
+                    </td>
+                    <td>
+                       3 Anos
+                    </td>
+                
+                </tr>
+                    <td>
+                        Vip
+                    </td>
+                    <td>
+                        3 Anos
+                    </td>
+                    <td>
+                        5 Anos
+                    </td>
+                <tr>
+                    <td>
+                        Comum
+                    </td>
+                    <td>
+                        4 Anos
+                    </td>
+                    <td>
+                        7 Anos
+                    </td>
+                </tr>
+            </table>
+        </span>
+    </article>
+    <article>
+        <p>Componente de Lista
+        <div>
+                <ol>
+                    <li>Testando Lista1</li>
+                    <li>Testando Lista2</li>
+                    <li>Testando Lista3</li>
+                </ol>
+        </div>
+        <div>
+                <ul>
+                    <li>Testando Lista1</li>
+                    <li>Testando Lista2</li>
+                    <li>Testando Lista3</li>
+                </ul>
+            </p>
+        </div>
+    </article>
+    </section>   
+    <footer><!--Rodapé-->
+
+    </footer>
+</body>
+</html>
